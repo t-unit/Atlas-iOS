@@ -226,7 +226,7 @@ NS_ASSUME_NONNULL_BEGIN
  @default `LYRDeletionModeLocal` and `LYRDeletionModeAllParticipants.
  @raises NSInternalInconsistencyException Raised if the value is mutated after the receiver has been presented.
  */
-@property (nonatomic) NSArray <NSNumber*> *deletionModes;
+@property (nonatomic) NSArray <UITableViewRowAction*> *deletionModes;
 
 /**
  @abstract Informs the receiver if it should display an avatar item representing a conversation.
